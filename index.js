@@ -100,6 +100,10 @@ run().catch(console.dir);
 
 
 
+app.get('/hello', (req, res) => {
+  res.send('hello updated githere');
+});
+
 app.get('/', (req, res) => {
   res.send('Running  my crud');
 });
